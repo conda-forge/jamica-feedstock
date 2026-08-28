@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.3.0"
 
 package:
   name: jamica
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jamica/jamica-${{ version }}.tar.gz
-  sha256: 3845127d84895949cf6dd252b548a6fb39bd0cdbbe651c40891aa242ef302f2d
+  sha256: 06ee3a5b8aee630bddd2edb2d59412c309b0a37882ec5ee2cc8d1bf7d6aa8094
 
 build:
   noarch: python
